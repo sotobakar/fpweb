@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #b5ffe1;
+  font-family: 'Montserrat',sans-serif;
+  margin: 0;
+  display: block;
+  height: 100%;
+}
+
+.head{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.cart{
+  position: absolute;
+  right: 0;
+  padding-right: 1em;
+}
+
+header h1,h2{
+  margin: 0;
+  text-align: center;
+}
+header h1{
+  font-size: 3em;
+  font-weight: 400;
+}
+header h2{
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: ;
+}
+
+header nav{
+  background-color: #25291c;
+  margin: 0 ;
+  padding: 0.8em 0;
+}
+header nav ul{
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  color:#ffd8be;
+  margin: 0;
+  justify-content: space-around;
+}
+
+section{
+  height: auto;
+  background-color: #64e9ee;
+  padding-bottom: 1em;
+}
+
+.jumbo{
+  font-size: 4em;
+  font-weight: 800;
+}
+
+section>p{
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.column{
+  display: flex;
+  flex-flow: column wrap;
+}
+section ul{
+  padding: 0;
+  margin: 0 10%;
+  background-color: #4d7c8a;
+
+}
+section ul li{
+  list-style-type: none;
+  margin: 0 5%;
+  color:#ffd8be;
+}
+
+section ul li figure p{
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+  font-size: 1em;
+}
+
+footer{
+  margin-top: 1em;
+  height: 8px;
+  display: flex;
+  align-items: center;
+}
+footer .fab{
+  margin-right:1em;
+  color: black;
+}
+.form li{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.form > li > label{
+  width: 120px;
+  flex-basis: 1;
+  flex-shrink: 0;
+  max-width: 220px;
+}
+
+.form > li > label + *{
+  width: 220px;
+  flex-basis: 1;
+  flex-shrink: 0;
+}
+
+.form{
+  display: flex;
+  padding: 2em 0;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#ffd8be;
+}
